@@ -1,0 +1,86 @@
+
+body {
+  background-color: #FDFCDC;
+}
+
+h1 {
+  color:#00AFB9;
+}
+
+.App {
+  text-align: center;
+   }
+
+.search-bar {
+  background: #fed987;
+  border:#f07167;
+  border-radius: 15px;
+  padding: 15px;
+  width: 20%;
+  margin:auto;
+}
+
+.app-cloud,.app-rain, .app-snow, .app-sun {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid #fed987;
+  border-radius: 15px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 500px;
+ 
+}
+
+
+.location {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: #0081a7;
+
+}
+
+.temperature {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 90px;
+  padding: 80px 0px 50px;
+  color: #f07167;
+  
+
+}
+.weatherCondition {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  color: #00AFB9;
+
+}
+.todaysDate {
+  text-shadow: .5px .5px rgb(90, 100, 100);
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  background-color: #00AFB9;
+  border: #00AFB9;
+  color:white;
+  border-radius: 5px;
+  height: 35px;
+  margin-left: 5px;
+}
+.app-sun {
+  background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('./Images/sunny.jpg');
+}
+.app-rain {
+  background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('./Images/rainy.jpg');
+}
+
+.app-snow {
+background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('./Images/snow.jpg');
+}
+
+.app-cloud {
+background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('./Images/cloudy.jpg');
+}
